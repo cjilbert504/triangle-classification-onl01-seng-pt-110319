@@ -1,10 +1,6 @@
 
 class Triangle
 
-  class TriangleError < StandardError
-
-  end
-
   def initialize(s1, s2, s3)
     @s1 = s1
     @s2 = s2
@@ -21,6 +17,10 @@ class Triangle
     elsif @s1 <= 0 || @s2 <= 0 || @s3 <= 0
       raise TriangleError
     end
+  end
+
+  class TriangleError < StandardError
+
   end
 
 end

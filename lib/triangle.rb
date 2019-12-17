@@ -56,7 +56,7 @@ end
 #     @s2 = s2
 #     @s3 = s3
 #   end
-# 
+#
 #   def kind
 #     if @s1 == @s2 && @s1 == @s3 && @s2 == @s3
 #       :equilateral
@@ -68,9 +68,9 @@ end
 #       raise TriangleError
 #     end
 #   end
-# 
+#
 #   class TriangleError < StandardError
-# 
+#
 #   end
-# 
+#
 # end
